@@ -1,0 +1,22 @@
+#include <stdio.h>
+ 
+int main() {
+    float a;
+    scanf("%f",&a);
+    int b=a;
+    float c=a-b;
+    if(c==0){
+         printf("int %d",b);
+        
+    }
+    else{
+         printf("float %d %.3f",b,c);
+        
+    }
+    
+    
+  
+    
+    
+    return 0;
+}
