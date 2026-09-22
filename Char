@@ -1,0 +1,7 @@
+
+a=input("")
+b=a.upper()
+if(a==b):
+    print(a.lower())
+else:
+    print(b)
