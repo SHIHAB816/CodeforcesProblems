@@ -1,0 +1,18 @@
+
+
+#include <stdio.h>
+
+int main() {
+int a;
+    int b;
+    float c;
+    float d;
+
+    scanf("%d %d",&a,&b);
+    
+d=100-a;
+    c=(100/d)*b;
+    printf("%2f",c);
+    return 0;
+   
+}
